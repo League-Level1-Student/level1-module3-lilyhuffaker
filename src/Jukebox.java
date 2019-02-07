@@ -16,6 +16,8 @@ import javax.swing.SwingUtilities;
 
 import javazoom.jl.player.advanced.AdvancedPlayer;
 
+Song Bamboozled;
+
 /* 1. Download the JavaZoom jar from here: http://bit.ly/javazoom
  * 2. Right click your project and add it as an External JAR (Under Java Build Path > Libraries).*/
 
@@ -29,7 +31,7 @@ public class Jukebox implements Runnable {
 
 		// 3. Find an mp3 on your computer or on the Internet.
 		// 4. Create a Song
-
+        	   Bamboozled = new Song("bamboozled-freesoundtrackmusic.mp3"); //eeeeeeeeee
 		// 5. Play the Song
 
 		/*
@@ -133,4 +135,3 @@ class Song {
 		}
 	}
 }
-
